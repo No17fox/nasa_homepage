@@ -1,0 +1,7 @@
+body {
+  background: rgba(0, 0, 0, 1);
+  box-sizing: border-box;
+  width: 95%;
+  margin: auto;
+  font-family: 'Titillium Web', sans-serif;
+}
