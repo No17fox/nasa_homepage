@@ -131,17 +131,23 @@ li {
   font-weight: bold;
   font-size: 18px;
 }
+.headline .title:hover {
+  background: rgba(255, 255, 255, 1);
+}
 .headline .title a {
   color: rgb(0, 0, 0, 1);
   font-weight: bold;
   font-size: 18px;
 }
-.tag {
+.headline .tag {
   background: rgba(93, 127, 185, 0.8);
   width: fit-content;
   padding: 5px 10px;
 }
-.tag a {
+.headline .tag:hover {
+  background: rgba(93, 127, 185, 1);
+}
+.headline .tag a {
   color: rgb(255, 255, 255, 1);
   font-size: 18px;
 }
