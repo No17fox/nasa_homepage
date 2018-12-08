@@ -103,24 +103,35 @@ li {
   grid-template-rows: 290px;
   grid-gap: 20px;
 }
+.content img {
+  width: 100%;
+  height: 100%;
+}
 .big_card {
   grid-column-end: span 2;
   grid-row-end: span 2;
+  position: relative;
 }
-.big_card .card_content {
-  width: 100%;
-  height: 520px;
+.normal_card {
+  position: relative;
 }
-.normal_card .card_content {
-  width: 100%;
-  height: 190px;
+.wider_card {
+  grid-column-end: span 2;
+  position: relative;
 }
 .headline {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+.headline .title {
   background: rgba(255, 255, 255, 0.8);
   width: 100%;
   padding: 5px 10px;
+  font-weight: bold;
+  font-size: 18px;
 }
-.headline a {
+.headline .title a {
   color: rgb(0, 0, 0, 1);
   font-weight: bold;
   font-size: 18px;
@@ -132,35 +143,7 @@ li {
 }
 .tag a {
   color: rgb(255, 255, 255, 1);
-  font-weight: bold;
   font-size: 18px;
-}
-.content > div:first-of-type {
-  background: url('../images/dusk_for_Dawn.jpg');
-}
-.content > div:nth-of-type(2) {
-  background: url('../images/earth_future_climate_.jpg');
-}
-.content > div:nth-of-type(4) {
-  background: url('../images/liftoff_of_apollo_11.jpg');
-}
-.content > div:nth-of-type(5) {
-  background: url('../images/a_merger_of_stars.jpg');
-}
-.content > div:nth-of-type(6) {
-  background: url('../images/rare_double_asteroid.gif');
-}
-.content > div:nth-of-type(8) {
-  background: url('../images/nasa_logo.png');
-}
-.content > div:nth-of-type(9) {
-  background: url('../images/jupiter_moon_io.gif');
-}
-.content > div:nth-of-type(10) {
-  background: url('../images/cassini.jpg');
-}
-.content > div:nth-of-type(11) {
-  background: url('../images/fermi_traces_source_of_cosimic_neutrino.jpg');
 }
 .bulletin_board {
   background: rgba(69, 112, 154, 1);
@@ -185,4 +168,8 @@ li {
   position: absolute;
   bottom: 0px;
   width: 95%;
+}
+video {
+  width: 100%;
+  margin-top: 100px;
 }
