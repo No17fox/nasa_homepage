@@ -1,6 +1,8 @@
+* {
+  box-sizing: border-box;
+}
 body {
   background: rgba(0, 0, 0, 1);
-  box-sizing: border-box;
   width: 95%;
   margin: auto;
   font-family: 'Titillium Web', sans-serif;
@@ -10,6 +12,8 @@ a {
 }
 ul {
   list-style-type: none;
+  padding: 0px;
+  margin: 0px;
 }
 li {
   float: left;
@@ -50,11 +54,16 @@ li {
   width: 40px;
   border: none;
 }
-.navigation .main {
-  font-size: 21px;
+.navigation {
+  float: right;
 }
-.navigation .main a {
+.navigation a {
   color: rgb(255, 255, 255, 1);
+}
+.navigation .main {
+  height: 54px;
+  font-size: 21px;
+  margin: 10px 0px;
 }
 .navigation .main li {
   padding: 11px;
@@ -66,4 +75,20 @@ li {
 .navigation .main li:hover {
   background: rgba(21, 65, 140, 1);
   border-right: 2px solid rgba(21, 65, 140, 1);
+}
+.navigation .sub {
+  height: 40px;
+  background: rgba(85, 85, 85, 1);
+  padding: 8px 0px 0px 0px;
+}
+.navigation .sub_list {
+  height: 30px;
+  font-size: 14px;
+}
+.navigation .sub_list li {
+  padding: 0px 11px;
+  border-right: 1px solid rgba(136, 136, 136, 1);
+}
+.navigation .sub_list li:last-child {
+  border: none;
 }
