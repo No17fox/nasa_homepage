@@ -15,3 +15,9 @@ body {
   margin: 11px;
   float: left;
 }
+.header .share {
+  height: 42px;
+  width: 42px;
+  margin: 11px;
+  float: right;
+}
