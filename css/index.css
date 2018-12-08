@@ -5,6 +5,9 @@ body {
   margin: auto;
   font-family: 'Titillium Web', sans-serif;
 }
+a {
+  text-decoration: none;
+}
 .header {
   background: url('../images/starfield_banner.jpg');
   position: fixed;
