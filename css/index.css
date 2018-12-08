@@ -6,6 +6,8 @@ body {
   width: 95%;
   margin: auto;
   font-family: 'Titillium Web', sans-serif;
+  display: grid;
+  grid-template-rows: 125px auto auto;
 }
 a {
   text-decoration: none;
@@ -22,6 +24,7 @@ li {
   background: url('../images/starfield_banner.jpg');
   position: fixed;
   width: 95%;
+  grid-row-end: 2;
 }
 .header .logo {
   width: 110px;
@@ -91,4 +94,70 @@ li {
 }
 .navigation .sub_list li:last-child {
   border: none;
+}
+.content {
+  grid-row-end: 3;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 290px;
+  grid-gap: 20px;
+}
+.big_card {
+  grid-column-end: span 2;
+  grid-row-end: span 2;
+}
+.big_card .card_content {
+  width: 630px;
+  height: 500px;
+}
+.normal_card .card_content {
+  width: 290px;
+  height: 190px;
+}
+.headline {
+  background: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  padding: 5px 10px;
+}
+.headline a {
+  color: rgb(0, 0, 0, 1);
+  font-weight: bold;
+  font-size: 18px;
+}
+.tag {
+  background: rgba(93, 127, 185, 0.8);
+  width: fit-content;
+  padding: 5px 10px;
+}
+.tag a {
+  color: rgb(255, 255, 255, 1);
+  font-weight: bold;
+  font-size: 18px;
+}
+.content > div:first-of-type {
+  background: url('../images/dusk_for_Dawn.jpg');
+}
+.content > div:nth-of-type(2) {
+  background: url('../images/earth_future_climate_.jpg');
+}
+.content > div:nth-of-type(4) {
+  background: url('../images/liftoff_of_apollo_11.jpg');
+}
+.content > div:nth-of-type(5) {
+  background: url('../images/a_merger_of_stars.jpg');
+}
+.content > div:nth-of-type(6) {
+  background: url('../images/rare_double_asteroid.gif');
+}
+.content > div:nth-of-type(8) {
+  background: url('../images/nasa_logo.png');
+}
+.content > div:nth-of-type(9) {
+  background: url('../images/jupiter_moon_io.gif');
+}
+.content > div:nth-of-type(10) {
+  background: url('../images/cassini.jpg');
+}
+.content > div:nth-of-type(11) {
+  background: url('../images/fermi_traces_source_of_cosimic_neutrino.jpg');
 }
