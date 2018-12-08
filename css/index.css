@@ -107,11 +107,11 @@ li {
   grid-row-end: span 2;
 }
 .big_card .card_content {
-  width: 630px;
-  height: 500px;
+  width: 100%;
+  height: 520px;
 }
 .normal_card .card_content {
-  width: 290px;
+  width: 100%;
   height: 190px;
 }
 .headline {
