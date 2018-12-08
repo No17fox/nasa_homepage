@@ -16,8 +16,8 @@ body {
   float: left;
 }
 .header .share {
-  height: 42px;
-  width: 42px;
+  height: 40px;
+  width: 40px;
   margin: 11px;
   float: right;
 }
@@ -31,13 +31,13 @@ body {
   font-family: 'Titillium Web', sans-serif;
   font-size: 14px;
   border: none;
-  height: 42px;
+  height: 40px;
   width: 120px;
   padding-left: 10px;
 }
 .search input[type="submit"] {
   background: url(../images/search.svg);
-  height: 42px;
-  width: 42px;
+  height: 40px;
+  width: 40px;
   border: none;
 }
