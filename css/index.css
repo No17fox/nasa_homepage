@@ -10,3 +10,8 @@ body {
   position: fixed;
   width: 95%;
 }
+.header .logo {
+  width: 110px;
+  margin: 11px;
+  float: left;
+}
