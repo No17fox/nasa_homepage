@@ -8,6 +8,12 @@ body {
 a {
   text-decoration: none;
 }
+ul {
+  list-style-type: none;
+}
+li {
+  float: left;
+}
 .header {
   background: url('../images/starfield_banner.jpg');
   position: fixed;
@@ -43,4 +49,21 @@ a {
   height: 40px;
   width: 40px;
   border: none;
+}
+.navigation .main {
+  font-size: 21px;
+}
+.navigation .main a {
+  color: rgb(255, 255, 255, 1);
+}
+.navigation .main li {
+  padding: 11px;
+  border-right: 2px solid rgba(57, 57, 57, 1);
+}
+.navigation .main li:last-child {
+  border-right: none;
+}
+.navigation .main li:hover {
+  background: rgba(21, 65, 140, 1);
+  border-right: 2px solid rgba(21, 65, 140, 1);
 }
