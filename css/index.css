@@ -25,6 +25,7 @@ li {
   position: fixed;
   width: 95%;
   grid-row-end: 2;
+  z-index: 1;
 }
 .header .logo {
   width: 110px;
@@ -160,4 +161,28 @@ li {
 }
 .content > div:nth-of-type(11) {
   background: url('../images/fermi_traces_source_of_cosimic_neutrino.jpg');
+}
+.bulletin_board {
+  background: rgba(69, 112, 154, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 14px;
+  padding: 8px;
+  position: relative;
+}
+.bulletin_board a {
+  color: rgba(255, 255, 255, 1);
+  font-size: 14px;
+}
+.bulletin_board .title {
+  padding: 5px;
+  border-bottom: 1px solid rgba(255, 255, 255, 1);
+}
+.bulletin_board .more_infor {
+  padding: 5px;
+  border-top: 1px solid rgba(255, 255, 255, 1);
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0px;
+  width: 95%;
 }
