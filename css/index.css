@@ -179,3 +179,36 @@ video {
   width: 100%;
   margin-top: 100px;
 }
+.footer {
+  grid-row-end: 4;
+}
+.read_more {
+  width: 100%;
+  height: 40px;
+  padding: 7px;
+  margin: 10px 0px;
+  background: rgb(21, 65, 140, 1);
+  font-weight: bold;
+  text-align: center;
+}
+.read_more a {
+  color: white;
+}
+.read_more:hover {
+  background: rgb(93, 127, 185, 1);
+}
+.footer .logo {
+  width: 80px;
+  margin: 20px 0px 20px 10px;
+  float: left;
+}
+.footer .status {
+  color: rgba(255, 255, 255, 1);
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  margin: 20px 30px;
+  float: left;
+}
+.footer .status p {
+  margin: 0px;
+}
