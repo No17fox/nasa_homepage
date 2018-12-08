@@ -6,7 +6,7 @@ body {
   font-family: 'Titillium Web', sans-serif;
 }
 .header {
-  background: url('../image/starfield-banner.jpg');
+  background: url('../images/starfield_banner.jpg');
   position: fixed;
   width: 95%;
 }
