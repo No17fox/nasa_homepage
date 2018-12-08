@@ -21,3 +21,23 @@ body {
   margin: 11px;
   float: right;
 }
+.search {
+  background: rgba(51, 51, 51, 1);
+  margin: 11px;
+  float: right;
+}
+.search input[type="text"] {
+  background: rgba(51, 51, 51, 1);
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 14px;
+  border: none;
+  height: 42px;
+  width: 120px;
+  padding-left: 10px;
+}
+.search input[type="submit"] {
+  background: url(../images/search.svg);
+  height: 42px;
+  width: 42px;
+  border: none;
+}
