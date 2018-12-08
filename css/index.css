@@ -212,3 +212,11 @@ video {
 .footer .status p {
   margin: 0px;
 }
+.footer .navigation a {
+  color: rgba(93, 127, 185, 1);
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+.footer .navigation li {
+  padding: 11px;
+}
